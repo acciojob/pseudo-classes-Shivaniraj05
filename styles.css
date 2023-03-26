@@ -1,7 +1,20 @@
 /*  your css code here. If applicable */
+body{
+	background-color: skyblue;
+}
 p:first-child{
 	background-color: black;
+	color:white;
 }
-li:n-child(even){
+p:last-child{
+	color: red;
+}
+li:nth-child(4n+1){
 	background-color: white;
+}
+li:nth-child(2n+2){
+	background-color: slategray;
+}
+li:nth-child(3){
+	background-color: pink;
 }
